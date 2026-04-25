@@ -1,0 +1,128 @@
+Create a high-end, modern, animated food landing page for a brand called "UNLOCK FOOD".
+
+Design Style:
+- Primary colors: Red (#FF2E2E) and Yellow (#FFC300)
+- Dark accents for contrast (black / dark gray)
+- Bold, futuristic, and slightly playful design
+- Use glow effects, gradients, and glassmorphism
+- Mobile-first but also perfect on desktop
+
+Hero Section:
+- Center a large juicy burger (3D or high-quality image)
+- Add a glowing lock icon integrated into the word "UNLOCK"
+- Big headline:
+  "UNLOCK YOUR MEAL 🔓"
+- Subtext:
+  "Not just food… it's an experience"
+- Add a CTA button:
+  "Start Unlocking"
+- Add smooth floating animation to the burger
+
+Interactive Effect:
+- When clicking the CTA:
+  - Trigger unlock animation (lock opens 🔓)
+  - Scroll smoothly to the menu
+  - Add particle or glow effect
+
+Menu Section (Important):
+- Create categories with modern tabs:
+  Tacos 🌮, Malfouf 🌯, Sandwich 🥪, Burger 🍔, Plat 🍽️, Pasta 🍝, Salads 🥗, Crispy 🍗, Drinks 🥤
+
+- Each category displays items in cards with:
+  - Image
+  - Name
+  - Price (DA)
+  - Button: "Unlock & Order"
+
+Use this exact menu data:
+
+TACOS:
+- Tacos Chawarma — 350 DA
+- Tacos Poulet Crispy — 350 DA
+- Tacos Mix — 450 DA
+- Tacos Kabda — 400 DA
+- Tacos Viande Hachée — 400 DA
+
+MALFOUF:
+- Malfouf Chawarma — 250 DA
+- Malfouf Poulet Crispy — 250 DA
+- Malfouf Mix — 350 DA
+- Malfouf Kabda — 300 DA
+- Malfouf Viande Hachée — 300 DA
+- Malfouf frites — 400 DA
+
+SANDWICH:
+- Sandwich Frit — 100 DA
+- Sandwich Frit Omelette — 150 DA
+- Sandwich Chawarma — 250 DA
+- Sandwich Poulet Crispy — 250 DA
+- Sandwich Mix — 350 DA
+- Sandwich Kabda — 300 DA
+- Sandwich Viande Hachée — 300 DA
+
+BURGER:
+- Burger Classic — 250 DA
+- Burger Crispy — 250 DA
+- Burger Mix — 500 DA
+- Burger Double Crispy — 500 DA
+- Burger Unloock — 650 DA (highlight this item)
+- Burger Double Viande Hachée — 500 DA
+
+PLATS:
+- Plat Crispy — 500 DA
+- Plat Viande Hachée — 500 DA
+- Plat Chawarma — 500 DA
+- Plat Kabda — 600 DA
+- Plat Mexicain — 650 DA
+- Plat Escalope à la Crème — 700 DA
+- Plat Suprême — 700 DA
+- Plat Unlock — 800 DA (highlight this item)
+
+PASTA:
+- Pasta 3 fromag — 500 DA
+- Pasta 3 fromag Crispy — 700 DA
+- Pasta Alfredo — 700 DA
+
+SALADS:
+- Healthy Salad — 250 DA
+- Camembert Salad — 350 DA
+- Caesar Salad — 350 DA
+- Unlock Salad — 500 DA (highlight)
+
+CRISPY:
+- 3 Pieces Crispy — 250 DA
+- 3 Crispy + Frit — 350 DA
+- 12 Crispy + Frit + Sauce — 1000 DA
+- 24 Crispy + Frit + Sauce — 1800 DA
+
+DRINKS:
+- Boissons 25 ML — 70 DA
+- Boissons 1L — 130 DA
+- Eau 1L — 50 DA
+- Canette — 100 DA
+
+Offers Section:
+- Place it visually on the right side
+- Highlight:
+  - Burger Mix — 400 DA
+  - Tacos Frites — 500 DA
+  - Tower — 950 DA
+- Add glowing badge: "HOT DEAL 🔥"
+
+Special Features:
+- Add "Secret Menu 🔒" section that unlocks after interaction
+- Add hover animations (scale + glow)
+- Add smooth scroll transitions
+- Add cart popup with animation
+- Add loading animation with lock opening
+
+Typography:
+- Bold, modern font (like Poppins or Montserrat)
+
+Make the page feel:
+- Premium
+- Addictive
+- Interactive
+- Not a normal restaurant site — but a unique experience
+
+Use clean HTML, CSS, and JavaScript (or React if possible).

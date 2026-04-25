@@ -1,0 +1,122 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "UniWSIT2DkDH6rlFnch31"
+uri = "file://artifacts/unlock-food/public/images/hero-burger.png"
+type = "image"
+title = "Epic juicy floating hero burger"
+
+[[generated]]
+id = "Ue0KfXSZAo2OWLpvQu6-q"
+uri = "file://artifacts/unlock-food/public/images/tacos.png"
+type = "image"
+title = "Premium Tacos"
+
+[[generated]]
+id = "RinZUxh5KltBZhMfLjgse"
+uri = "file://artifacts/unlock-food/public/images/malfouf.png"
+type = "image"
+title = "Premium Malfouf"
+
+[[generated]]
+id = "BL2OubV8JuhRfJySEVHWF"
+uri = "file://artifacts/unlock-food/public/images/sandwich.png"
+type = "image"
+title = "Premium Sandwich"
+
+[[generated]]
+id = "Q-nOA3DajYixZIfNyk6Xn"
+uri = "file://artifacts/unlock-food/public/images/burger.png"
+type = "image"
+title = "Premium Burger"
+
+[[generated]]
+id = "pcF7XWljKLaSPcbbCqPOe"
+uri = "file://artifacts/unlock-food/public/images/plat.png"
+type = "image"
+title = "Premium Plat"
+
+[[generated]]
+id = "A3p5Vnt52nEx5TTuBSavC"
+uri = "file://artifacts/unlock-food/public/images/pasta.png"
+type = "image"
+title = "Premium Pasta"
+
+[[generated]]
+id = "vyfMeSWvkUm6AGiCrpoDO"
+uri = "file://artifacts/unlock-food/public/images/salad.png"
+type = "image"
+title = "Premium Salad"
+
+[[generated]]
+id = "QUMervrdmcV6dPLhjhqf6"
+uri = "file://artifacts/unlock-food/public/images/crispy.png"
+type = "image"
+title = "Premium Crispy Chicken"
+
+[[generated]]
+id = "EwST58WL6P6MJt_6BfCg3"
+uri = "file://artifacts/unlock-food/public/images/secret.png"
+type = "image"
+title = "Secret Menu item"
+
+[[generated]]
+id = "PcuyU2ognbQaUuU3eejMP"
+uri = "file://artifacts/unlock-food/public/images/hero-burger-v2.png"
+type = "image"
+title = "hero burger cinematic"
+
+[[generated]]
+id = "qXM6bRwKuxPz4hsRJQ7nW"
+uri = "file://artifacts/unlock-food/public/images/tacos-v2.png"
+type = "image"
+title = "tacos cinematic"
+
+[[generated]]
+id = "yYS5ssRD9SvzKH8fzJpL3"
+uri = "file://artifacts/unlock-food/public/images/malfouf-v2.png"
+type = "image"
+title = "malfouf wrap cinematic"
+
+[[generated]]
+id = "9zMmQZC3JlmZPczMLdv6D"
+uri = "file://artifacts/unlock-food/public/images/sandwich-v2.png"
+type = "image"
+title = "sandwich cinematic"
+
+[[generated]]
+id = "uVvhbffncnFLA76h3wGls"
+uri = "file://artifacts/unlock-food/public/images/burger-v2.png"
+type = "image"
+title = "classic burger cinematic"
+
+[[generated]]
+id = "f_C38SP5M4A5lfrmEZ_Gk"
+uri = "file://artifacts/unlock-food/public/images/plat-v2.png"
+type = "image"
+title = "plat chicken cinematic"
+
+[[generated]]
+id = "NDhYKf-qNWhie1oDx8cpF"
+uri = "file://artifacts/unlock-food/public/images/pasta-v2.png"
+type = "image"
+title = "pasta cinematic"
+
+[[generated]]
+id = "qLhgMZZdPghq19ilwwFgY"
+uri = "file://artifacts/unlock-food/public/images/salad-v2.png"
+type = "image"
+title = "salad cinematic"
+
+[[generated]]
+id = "Ik95rqmHTRM4erqv7xxea"
+uri = "file://artifacts/unlock-food/public/images/crispy-v2.png"
+type = "image"
+title = "crispy chicken cinematic"
+
+[[generated]]
+id = "q0UuDfdG_YFjpikyqu8HR"
+uri = "file://artifacts/unlock-food/public/images/drinks-v2.png"
+type = "image"
+title = "drinks cinematic"

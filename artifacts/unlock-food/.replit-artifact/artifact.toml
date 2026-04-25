@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Unlock Food"
+version = "1.0.0"
+id = "artifacts/unlock-food"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21348
+
+[services.development]
+run = "pnpm --filter @workspace/unlock-food run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/unlock-food", "run", "build" ]
+publicDir = "artifacts/unlock-food/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21348"
+BASE_PATH = "/"
