@@ -9,6 +9,9 @@ import { useToast } from "@/hooks/use-toast";
 import { ParticleBurst } from "@/components/ui/particle-burst";
 import logoUrl from "@assets/unlock_logo_transparent.png";
 
+const BASE = import.meta.env.BASE_URL;
+const img = (p: string) => `${BASE}${p.replace(/^\//, "")}`;
+
 const TacoIcon: LucideIcon = (({ className, strokeWidth = 2, ...rest }: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -76,15 +79,15 @@ const SandwichIcon: LucideIcon = (({ className, strokeWidth = 2, ...rest }: any)
 
 // Menu Data
 const MENU_CATEGORIES: { id: string; name: string; image: string; Icon: LucideIcon }[] = [
-  { id: "tacos", name: "TACOS", image: "/images/tacos-v2.png", Icon: TacoIcon },
-  { id: "malfouf", name: "MALFOUF", image: "/images/malfouf-v2.png", Icon: MalfoufIcon },
-  { id: "sandwich", name: "SANDWICH", image: "/images/sandwich-v2.png", Icon: SandwichIcon },
-  { id: "burger", name: "BURGER", image: "/images/burger-v2.png", Icon: Hamburger },
-  { id: "plat", name: "PLAT", image: "/images/plat-v2.png", Icon: ChefHat },
-  { id: "pasta", name: "PASTA", image: "/images/pasta-v2.png", Icon: Soup },
-  { id: "salads", name: "SALADS", image: "/images/salad-v2.png", Icon: Salad },
-  { id: "crispy", name: "CRISPY", image: "/images/crispy-v2.png", Icon: Drumstick },
-  { id: "drinks", name: "DRINKS", image: "/images/drinks-v2.png", Icon: CupSoda },
+  { id: "tacos", name: "TACOS", image: img("images/tacos-v2.png"), Icon: TacoIcon },
+  { id: "malfouf", name: "MALFOUF", image: img("images/malfouf-v2.png"), Icon: MalfoufIcon },
+  { id: "sandwich", name: "SANDWICH", image: img("images/sandwich-v2.png"), Icon: SandwichIcon },
+  { id: "burger", name: "BURGER", image: img("images/burger-v2.png"), Icon: Hamburger },
+  { id: "plat", name: "PLAT", image: img("images/plat-v2.png"), Icon: ChefHat },
+  { id: "pasta", name: "PASTA", image: img("images/pasta-v2.png"), Icon: Soup },
+  { id: "salads", name: "SALADS", image: img("images/salad-v2.png"), Icon: Salad },
+  { id: "crispy", name: "CRISPY", image: img("images/crispy-v2.png"), Icon: Drumstick },
+  { id: "drinks", name: "DRINKS", image: img("images/drinks-v2.png"), Icon: CupSoda },
 ];
 
 const MENU_ITEMS: Record<string, { name: string; price: number; highlight?: boolean; badge?: string }[]> = {
@@ -364,7 +367,7 @@ export default function Home() {
             <div className="absolute w-[60%] h-[60%] bg-secondary/30 rounded-full blur-[80px] mix-blend-screen" />
             
             <motion.img 
-              src="/images/hero-burger-v2.png" 
+              src={img("images/hero-burger-v2.png")} 
               alt="Unlock Signature Burger" 
               className="relative z-10 w-[120%] h-[120%] object-contain object-center lg:translate-x-10 drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)]"
               style={{ y: heroBurgerY, rotate: heroBurgerRotate }}
